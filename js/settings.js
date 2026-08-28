@@ -1,0 +1,1 @@
+(function(){document.addEventListener('DOMContentLoaded',()=>{const f=document.getElementById('settingsForm');if(f)f.addEventListener('submit',e=>{e.preventDefault();CDOS.toast('Settings saved locally')});document.getElementById('logoutBtn')?.addEventListener('click',()=>{CDOS.storage.del('session');location.href='../index.html'})})})();

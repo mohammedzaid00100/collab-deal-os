@@ -1,0 +1,8 @@
+{
+  "name":"collab-deal-os",
+  "version":"0.1.0",
+  "private":true,
+  "description":"Responsive creator–brand deal intelligence website built with HTML, CSS, vanilla JavaScript, and a minimal Node.js server.",
+  "scripts":{"start":"node server.js","check":"node --check server.js && node --check js/app.js && node --check js/ai-advisor.js"},
+  "engines":{"node":">=18"}
+}

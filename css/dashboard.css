@@ -1,0 +1,1 @@
+.chart-surface{position:relative;min-height:150px}.chart-surface::before{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line)}.chart-svg{width:100%;height:145px;overflow:visible}.spark-area{fill:url(#sparkGradient)}.spark-line{fill:none;stroke:#6455ff;stroke-width:3;stroke-linecap:round}.axis{font-size:10px;color:var(--muted)}

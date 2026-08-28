@@ -1,0 +1,45 @@
+{
+  "creator": {
+    "id": "creator_maya",
+    "name": "Maya Patel",
+    "email": "maya@example.com",
+    "avatar": "../assets/images/maya-avatar.png",
+    "niche": "Beauty & Lifestyle",
+    "location": "Los Angeles, CA",
+    "audienceRegion": "United States",
+    "instagramUrl": "https://instagram.com/mayapatel",
+    "metrics": {"instagram":128600,"tiktok":87200,"youtube":28700,"facebook":24500,"averageViews":68300,"engagement":5.7,"profileClicks":2400},
+    "audience": {"female":87,"age18_24":34,"age25_34":38,"age35_44":18,"age45plus":10},
+    "expectedRate": {"min":500,"max":1500},
+    "metricStatus": "creator-declared"
+  },
+  "creators": [
+    {"id":"creator_maya","name":"Maya Patel","avatar":"../assets/images/maya-avatar.png","niche":"Beauty & Lifestyle","location":"Los Angeles, CA","followers":128600,"engagement":5.7,"avgViews":68300,"platform":"Instagram","rate":2500,"match":92},
+    {"id":"creator_chris","name":"Chris Lee","avatar":"../assets/images/creator-chris.png","niche":"Skincare & Grooming","location":"New York, NY","followers":87300,"engagement":4.8,"avgViews":52100,"platform":"TikTok","rate":1800,"match":89},
+    {"id":"creator_alexandra","name":"Alexandra Kim","avatar":"../assets/images/creator-alexandra.png","niche":"Beauty & Wellness","location":"San Diego, CA","followers":256200,"engagement":6.2,"avgViews":110000,"platform":"Instagram","rate":4200,"match":88},
+    {"id":"creator_jordan","name":"Jordan Taylor","avatar":"../assets/images/creator-jordan.png","niche":"Lifestyle & Fitness","location":"Austin, TX","followers":112400,"engagement":4.9,"avgViews":59000,"platform":"YouTube","rate":2200,"match":85}
+  ],
+  "opportunities": [
+    {"id":"opp_lumiere","brand":"Lumière Beauty","brandLogo":"../assets/images/lumiere-logo.png","title":"New Skincare Launch Campaign","niche":"Beauty & Skincare","platform":"Instagram","payment":2500,"productValue":180,"product":"Skincare Bundle","match":92,"status":"New","deliverables":["1 Instagram Feed Post","3 Instagram Stories","1 Reel (15–30 sec)"],"usageRights":"Organic Social Only","exclusivity":"30 Days","location":"United States","campaignBrief":"Help us launch our new radiance-boosting serum with a clean beauty focus.","timeline":"Jun 15, 2025 – Jul 15, 2025"},
+    {"id":"opp_purely","brand":"Purely Organics","title":"Organic Skincare Review","niche":"Beauty & Wellness","platform":"Instagram","payment":1200,"productValue":95,"product":"Product Bundle","match":88,"status":"New","deliverables":["1 Reel","2 Stories"],"usageRights":"Organic Social Only","exclusivity":"None","location":"United States","timeline":"Jul 1 – Jul 21"},
+    {"id":"opp_vita","brand":"VitaBoost","title":"Wellness Routine Collab","niche":"Health & Wellness","platform":"TikTok","payment":2000,"productValue":120,"product":"Wellness Pack","match":85,"status":"Interested","deliverables":["1 TikTok Video","2 Cutdowns"],"usageRights":"Organic + 30-day paid","exclusivity":"14 Days","location":"United States","timeline":"Jul 5 – Jul 28"},
+    {"id":"opp_luxe","brand":"Luxe Hair","title":"Haircare Reels Campaign","niche":"Beauty & Haircare","platform":"Instagram","payment":1500,"productValue":100,"product":"Haircare Set","match":80,"status":"Shortlisted","deliverables":["2 Reels"],"usageRights":"Organic Social Only","exclusivity":"30 Days","location":"United States","timeline":"Jul 10 – Aug 2"},
+    {"id":"opp_sunny","brand":"Sunny Days","title":"Summer Essentials Haul","niche":"Lifestyle","platform":"Instagram","payment":950,"productValue":75,"product":"Sunscreen Bundle","match":79,"status":"Viewed","deliverables":["1 Reel","3 Stories"],"usageRights":"Organic Social Only","exclusivity":"None","location":"United States","timeline":"Jul 12 – Aug 5"}
+  ],
+  "campaigns": [
+    {"id":"camp_glow","brand":"Lumière Beauty","name":"Lumière Glow Serum Launch","status":"Active","reach":1200000,"engagement":8.7,"spend":6240,"roi":4.6,"budget":2500,"objective":"Increase Brand Awareness","targetNiche":"Skincare","targetLocation":"United States","platform":"Instagram","deliverables":["Instagram Post","Instagram Story","Unboxing Video"],"productValue":180,"usageRights":"Organic Social Only","exclusivity":"30 Days","timeline":"Jun 15, 2025 – Jul 15, 2025"},
+    {"id":"camp_hydra","brand":"Lumière Beauty","name":"Hydra Cream UGC Push","status":"Active","reach":892000,"engagement":7.1,"spend":4560,"roi":3.9},
+    {"id":"camp_spf","brand":"Lumière Beauty","name":"SPF Essentials Campaign","status":"Active","reach":643000,"engagement":6.3,"spend":3280,"roi":3.2},
+    {"id":"camp_lip","brand":"Lumière Beauty","name":"Lumière Lip Balm Collab","status":"Completed","reach":512000,"engagement":5.8,"spend":2560,"roi":2.8}
+  ],
+  "offers": [
+    {"id":"offer_lumiere","opportunityId":"opp_lumiere","brand":"Lumière Beauty","campaign":"New Skincare Launch Campaign","payment":2500,"productValue":180,"product":"Skincare Bundle","match":92,"status":"Received","received":"May 28, 2025","lastAction":"Offer received"},
+    {"id":"offer_purely","opportunityId":"opp_purely","brand":"Purely Organics","campaign":"Organic Skincare Review","payment":1200,"productValue":95,"product":"Product Bundle","match":88,"status":"Revised","received":"May 24, 2025","lastAction":"Creator revised offer"},
+    {"id":"offer_vita","opportunityId":"opp_vita","brand":"VitaBoost","campaign":"Wellness Routine Collab","payment":2000,"productValue":120,"product":"Wellness Pack","match":85,"status":"Accepted","received":"May 20, 2025","lastAction":"Offer accepted"}
+  ],
+  "notifications": [
+    {"type":"offer","text":"New offer from Glow Up Cosmetics","time":"8 min ago"},
+    {"type":"analysis","text":"AI analysis is ready for Lumière Beauty","time":"42 min ago"},
+    {"type":"campaign","text":"New beauty campaign matches your profile","time":"2 hr ago"}
+  ]
+}
